@@ -30,7 +30,7 @@ Whole tutorial : [HOW READ ANALOG VALUE]
 
 
 ## Wiring
-![Alt text](connection_photo.jpg?raw=true)
+![Alt text](/handy-clicker/connection_photo.jpg?raw=true)
 
 
 
