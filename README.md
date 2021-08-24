@@ -20,7 +20,34 @@ After that I measured all values corresponding to each button and save results.
 
 Remember when want read analog values must add additional resistor.
 
+Using python API tuyapy it's possible to controll sonoff devices like power switch connected with night lamp.
+
 Whole tutorial : [HOW READ ANALOG VALUE] 
+
+### Create class object
+```
+api = TuyaApi()
+    api.init(USERNAME, PASSWORD, COUNTRY_CODE)
+```
+### Code to discover all devies
+```
+    for device in api.get_all_devices():
+        id = device.object_id()
+        print(id)        
+                
+```
+
+### Example operation
+```
+api.get_device_by_id("***").turn_off()
+api.get_device_by_id("***").turn_on()
+```
+
+
+
+## Functions:
+* Enter button - play Boney M. - Rasputin
+* UP/DOWN button - turn off/on sonoff switch
 
 ## Libraries and software:
 - CircuitPython - 6.3.0
