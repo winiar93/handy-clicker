@@ -30,5 +30,5 @@ def lamp_operations(decision: str):
     print(f"  /   Device - {value}  - current status - {decision}     /")
     print(" /                                                   /")
     print(" ---------------------------------------------------")
-    time.sleep(5)
+    time.sleep(2)
 
