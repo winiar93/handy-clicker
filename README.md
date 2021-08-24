@@ -22,6 +22,8 @@ Remember when want read analog values must add additional resistor.
 
 Using python API tuyapy it's possible to controll sonoff devices like power switch connected with night lamp.
 
+Insert copy.py to raspberry pi pico
+
 Whole tutorial : [HOW READ ANALOG VALUE] 
 
 ### Create class object
