@@ -2,8 +2,6 @@
 Circuitpython HID emulator device with smart home functions
 # handy-clicker
 
-## circuitpython hid emulator with smart home functions
-
 ### Description:
 
 Handy clicker is raspberry pi pico based device with additional keyboard for fpv cameras.
