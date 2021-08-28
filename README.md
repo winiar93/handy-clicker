@@ -20,6 +20,7 @@ Remember when want read analog values must add additional resistor.
 
 Using python API tuyapy it's possible to controll sonoff devices like power switch connected with night lamp.
 
+Remember !
 Insert code.py to raspberry pi pico
 
 Whole tutorial : [HOW READ ANALOG VALUE] 
@@ -48,6 +49,7 @@ api.get_device_by_id("***").turn_on()
 ## Functions:
 * Enter button - play Boney M. - Rasputin
 * UP/DOWN button - turn off/on sonoff switch
+* RIGHT button - Type import statement from txt file (ansi) 
 
 ## Libraries and software:
 - CircuitPython - 6.3.0
